@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(to right, #705677, #637ea1);
+  color: white;
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+.inline-list {
+  display: inline;
+  list-style-type: none;
+}
+
+nav li {
+  float: right;
+  padding: 10px;
+}
+
+a {
+  color: white;
+}
+
+.left-nav-item {
+  float: left;
+  font-weight: bold;
+}
+
+/* https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
+nav {
+  background-color: rgba(141, 123, 123, 0.404);
+  height: 4em;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+i {
+  padding: 4px;
+  color: white;
+}
+
+.logo {
+  height: 3em;
+  border-radius: 50%;
+}
+
+.playlist-img,
+.top-artist-img {
+  height: 300px;
+  width: 300px;
+}
+
+.search-results ul {
+  list-style-type: none;
+}
+
+.sign-in-button {
+  padding: 1em;
+  background-color: #1db954;
+  color: white;
+}
+
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media only screen and (max-width: 600px) {
+  nav li {
+    display: none;
+  }
+  .left-nav-item {
+    display: block;
+  }
+}
