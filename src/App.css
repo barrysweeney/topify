@@ -4,9 +4,12 @@ body,
   height: 100%;
 }
 
+body {
+  background-image: linear-gradient(to right, #705677, #637ea1);
+}
+
 .App {
   text-align: center;
-  background-image: linear-gradient(to right, #705677, #637ea1);
   color: white;
   padding-top: 4em;
   padding-bottom: 2em;
