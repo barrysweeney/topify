@@ -646,6 +646,7 @@ class CreatePlaylist extends Component {
               base64: null,
               error: null,
             });
+            window.location.reload();
           } else {
             this.setState({
               error: true,
