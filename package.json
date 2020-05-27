@@ -30,5 +30,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "fetch": "^1.1.0",
+    "fetch-mock": "^9.10.1",
+    "node": "^14.3.0",
+    "react-test-renderer": "^16.13.1"
   }
 }

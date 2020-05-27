@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import queryString from "query-string";
+
 export class Search extends Component {
   async handleSubmit(e) {
     e.preventDefault();

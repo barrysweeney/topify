@@ -12,7 +12,7 @@ const Navbar = (props) => {
         </li>
 
         <li>
-          <a href={props.profile}>
+          <a href={props.profile} className="profile-link">
             <i className="fas fa-user-circle fa-2x"></i>
             Profile
           </a>
