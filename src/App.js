@@ -132,8 +132,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {console.log(this.state.user)}
-        {this.state.user ? (
+        {this.state.user.name ? (
           <div>
             <Navbar profile={this.state.user.profile} />
             <Greeting name={this.state.user.name} />
