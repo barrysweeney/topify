@@ -173,7 +173,7 @@ class App extends Component {
                 "https://quiet-fjord-91390.herokuapp.com/login")
             }
           >
-            Sign in with Spotify
+            Sign in with Spotify <i class="fab fa-spotify"></i>
           </button>
         )}
       </div>
