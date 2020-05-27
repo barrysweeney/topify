@@ -57,6 +57,7 @@ i {
   padding: 1em;
   background-color: #1db954;
   color: white;
+  border-radius: 20%;
 }
 
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
