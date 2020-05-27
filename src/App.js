@@ -132,6 +132,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        {console.log(this.state.user)}
         {this.state.user ? (
           <div>
             <Navbar profile={this.state.user.profile} />
@@ -162,7 +163,10 @@ class App extends Component {
         ) : (
           <button
             className="sign-in-button"
-            onClick={() => (window.location = "http://localhost:8888/login")}
+            onClick={() =>
+              (window.location =
+                "https://quiet-fjord-91390.herokuapp.com/login")
+            }
           >
             Sign in with Spotify
           </button>
