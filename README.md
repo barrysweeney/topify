@@ -1,3 +1,5 @@
+# Topify
+
 [View in browser (deployed to Netlify)](https://clever-lamport-50d143.netlify.app/)
 
 React App using the [Spotify Web API](https://developer.spotify.com/documentation/web-api/) that lets you:
